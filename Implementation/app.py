@@ -8,7 +8,7 @@ import random
 # Loading the dataset
 @st.cache
 def load_data():
-    return pd.read_csv("dataset.csv")
+    return pd.read_csv("Implementation/dataset.csv")
 
 df = load_data()
 
