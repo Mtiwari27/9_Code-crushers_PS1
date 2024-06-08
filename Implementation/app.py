@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.svm import SVC
-from sklearn.model_selection import train_test_split
+from scikit-learn.feature_extraction.text import TfidfVectorizer
+from scikit-learn.svm import SVC
+from scikit-learn.model_selection import train_test_split
 import random
 
 # Loading the dataset
